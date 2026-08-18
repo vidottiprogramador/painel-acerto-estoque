@@ -25,17 +25,18 @@ print("=" * 70)
 # ============================================================
 # LEITURA
 # ============================================================
-
+st.write("TESTE 1 - Iniciando leitura da Entrada")
 entrada = pd.read_excel(
     ARQUIVO,
     sheet_name="Detalhe Entrada"
 )
-
+st.write("TESTE 2 - Entrada carregada com sucesso")
 saida = pd.read_excel(
+    st.write("TESTE 3 - Iniciando leitura da Saída")
     ARQUIVO,
     sheet_name="Detalhe Saida"
 )
-
+st.write("TESTE 4 - Saída carregada com sucesso")
 
 # ============================================================
 # LIMPEZA
